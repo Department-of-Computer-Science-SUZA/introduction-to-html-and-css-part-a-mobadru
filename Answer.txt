@@ -1,0 +1,47 @@
+Part 1
+
+The <head> section holds info like the page title and links to CSS, but it doesn’t show on the page.
+
+Semantic tags like <section>, <article>, and <footer> give meaning to the layout, making it easier to read and better for search engines.
+
+Part 2
+
+How is the DOM different from the HTML source file?
+The HTML file is the original code I wrote and saved. The DOM is what the browser creates from that HTML so it can show the page. If I change something in the DOM (like using developer tools), it only changes what I see in the browser, not my actual HTML file.
+
+What happens when I modify DOM nodes in the dev tools?
+When I change something in the dev tools, it updates the page right away, but it’s not permanent. If I reload the page, all my changes will disappear because they were not saved in the real HTML file.
+
+Part 3
+
+What is the difference between GET and POST methods in forms?
+GET shows data in the URL and is not secure. POST hides the data and is better for private info like passwords.
+
+What happens when a form is submitted without a required input?
+The form won’t submit, and the browser will ask me to fill in the missing required field.
+
+Part 4
+
+ Inline CSS is written directly in an HTML tag using the style attribute. Internal CSS is placed within the <style> tag in the HTML document's <head> section. External CSS is written in a separate .css file and linked to the HTML using the <link> tag.
+
+ Conflicting styles are resolved based on specificity. More specific selectors (like ID selectors) will override less specific ones (like class or tag selectors). If two selectors have the same specificity, the one that appears later in the stylesheet will take precedence.
+
+Part 5
+
+What problems does responsive design solve?
+Responsive design ensures websites look good on any device, from phones to desktops, by adapting to different screen sizes, providing a consistent user experience.
+
+Why is mobile-first design considered best practice?
+Mobile-first design is best because most users access websites via mobile. It focuses on optimizing performance for smaller screens before expanding to larger screens, ensuring better user experience across devices.
+
+Part 6
+
+What are the benefits of using a CSS framework like Bootstrap?
+Bootstrap speeds up development by providing ready-to-use components and styles, ensuring consistency, supporting responsive design, and reducing the need for custom CSS.
+
+What is the difference between container, container-fluid, and row in Bootstrap?
+container: Fixed-width that adjusts based on screen size.
+container-fluid: Spans the entire width of the viewport.
+row: Organizes content into horizontal sections for the grid layout.
+
+
